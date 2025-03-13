@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ph-Tube</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="w-11/12 mx-auto flex justify-between py-4 border-b-2 border-[#17171720]">
+        
+        <div><img src="image/Logo.png" alt=""></div>
+        <div>Sort by view</div>
+        <div><button class="btn btn-sm bg-[#FF1F3D] text-white text-xl px-4 py-1 rounded">Blog</button></div>
+    </nav>
+
+    <!-- Categories section -->
+     <section>
+        <div id="Categories-container" class="flex justify-center gap-5 py-4">
+            <button id="all-btn" class="btn btn-sm hover:bg-[#FF1F3D] bg-slate-400 text-white text-xl px-4 py-1 rounded">all</button>
+        </div>
+     </section>
+
+     <!-- video section -->
+
+
+
+     <section >
+        <div class="w-11/12 mx-auto grid grid-cols-4 gap-5" id="videoContainer">
+        </div>
+        
+     </section>
+
+     <script src="script.js"></script>
+</body>
+</html>
